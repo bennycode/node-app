@@ -23,6 +23,7 @@ module.exports = function (config) {
     singleRun: false,
     concurrency: Infinity,
     plugins: [
+      'karma-jasmine',
       'karma-browserify'
     ]
   });
