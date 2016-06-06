@@ -1,4 +1,17 @@
-language: node_js
+# http://docs.travis-ci.com/user/workers/container-based-infrastructure/
+sudo: false 
+
+# http://docs.travis-ci.com/user/languages/javascript-with-nodejs/
+language: "node_js"
 node_js:
-- '0.11'
-- '0.10'
+  - "node"
+
+# https://blog.travis-ci.com/2013-12-05-speed-up-your-builds-cache-your-dependencies
+cache:
+  directories:
+    - "bower_components"
+    - "node_modules"
+
+# http://docs.travis-ci.com/user/notifications/
+notifications:
+  email: false
