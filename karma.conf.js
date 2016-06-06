@@ -25,6 +25,7 @@ module.exports = function (config) {
     singleRun: false,
     concurrency: Infinity,
     plugins: [
+      'karma-chrome-launcher',
       'karma-jasmine',
       'karma-browserify'
     ]
