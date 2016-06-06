@@ -11,6 +11,9 @@ cache:
   directories:
     - "bower_components"
     - "node_modules"
+    
+before_install:
+  - "npm install -g karma-cli"
 
 # http://docs.travis-ci.com/user/notifications/
 notifications:
