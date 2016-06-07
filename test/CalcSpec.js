@@ -1,3 +1,5 @@
+/* global expect */
+
 describe('Perimeter', function () {
   it('can calculate the perimeter for a rectangular', function () {
     var length = 4;
