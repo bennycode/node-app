@@ -1,3 +1,3 @@
 window.calc = {
-  perimeter: require('./calc')
+  perimeter: require('./calc.js')
 };

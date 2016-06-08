@@ -12,15 +12,15 @@
     "vinyl-source-stream": "^1.1.0"
   },
   "license": "MIT",
-  "main": "src/calc.js",
+  "main": "dist/calc.js",
   "name": "node-app",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bennyn/node-app.git"
   },
   "scripts": {
-    "start": "node src/server.js",
-    "test": "gulp build-browser && gulp test"
+    "start": "node dist/server.js",
+    "test": "gulp test"
   },
   "version": "1.0.0"
 }
