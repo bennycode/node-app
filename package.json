@@ -12,7 +12,10 @@
   "license": "MIT",
   "main": "src/calc.js",
   "name": "node-app",
-  "repository": "https://github.com/bennyn/node-app.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bennyn/node-app.git"
+  },
   "scripts": {
     "start": "node src/server.js",
     "test": "gulp build-browser && gulp test"
