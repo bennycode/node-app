@@ -2,9 +2,8 @@
   "name": "node-app",
   "version": "1.0.0",
   "main": "src/calc.js",
-  "private": true,
   "scripts": {
-    "server": "node ./src/server.js",
+    "start": "node src/server.js",
     "test": "gulp build-browser && gulp test"
   },
   "devDependencies": {
@@ -15,5 +14,8 @@
     "karma-chrome-launcher": "^1.0.1",
     "karma-jasmine": "^1.0.2",
     "vinyl-source-stream": "^1.1.0"
-  }
+  },
+  "description": "Example to show node_modules",
+  "repository": "https://github.com/bennyn/node-app.git",
+  "license": "MIT"
 }

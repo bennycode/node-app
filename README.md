@@ -5,7 +5,7 @@
 ### Run server
 
 ```bash
-npm run server
+npm start
 ```
 
 ### Run tests
