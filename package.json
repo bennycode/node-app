@@ -4,9 +4,8 @@
   "main": "src/calc.js",
   "private": true,
   "scripts": {
-    "postinstall": "gulp build-browser",
     "server": "node ./src/server.js",
-    "test": "gulp test"
+    "test": "gulp build-browser && gulp test"
   },
   "devDependencies": {
     "browserify": "^13.0.1",
