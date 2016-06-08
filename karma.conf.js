@@ -12,7 +12,7 @@ module.exports = function (config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'public/build/**/*.js',
+      'dist/calc-browser.js',
       'test/**/*Spec.js'
     ],
 

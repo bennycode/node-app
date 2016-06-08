@@ -1,1 +1,0 @@
-window.calc = require('./calc.js');

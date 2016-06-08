@@ -1,4 +1,6 @@
 .travis.yml
 karma.conf.js
 public
+src/js
 test
+typings
