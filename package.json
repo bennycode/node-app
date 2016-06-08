@@ -1,11 +1,5 @@
 {
-  "name": "node-app",
-  "version": "1.0.0",
-  "main": "src/calc.js",
-  "scripts": {
-    "start": "node src/server.js",
-    "test": "gulp build-browser && gulp test"
-  },
+  "description": "Example to show node_modules",
   "devDependencies": {
     "browserify": "^13.0.1",
     "gulp": "^3.9.1",
@@ -15,7 +9,13 @@
     "karma-jasmine": "^1.0.2",
     "vinyl-source-stream": "^1.1.0"
   },
-  "description": "Example to show node_modules",
+  "license": "MIT",
+  "main": "src/calc.js",
+  "name": "node-app",
   "repository": "https://github.com/bennyn/node-app.git",
-  "license": "MIT"
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "gulp build-browser && gulp test"
+  },
+  "version": "1.0.0"
 }
