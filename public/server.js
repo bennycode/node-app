@@ -1,4 +1,4 @@
-var calc = require('./calc.js');
+var calc = require('./dist/calc');
 var fs = require('fs');
 var http = require('http');
 var url = require('url');
