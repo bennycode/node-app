@@ -1,6 +1,8 @@
 {
   "name": "node-app",
-  "dependencies": {},
+  "dependencies": {
+    "Dexie": "github:dfahlander/Dexie.js/src/Dexie.d.ts#d271a952f2fed858bd6a25bfb2c4f5e8a55eaba3"
+  },
   "globalDependencies": {
     "node": "registry:dt/node#6.0.0+20160608110640"
   }
